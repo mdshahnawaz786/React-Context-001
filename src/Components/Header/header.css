@@ -1,0 +1,45 @@
+.header{
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.right button{
+    height: 1.5rem;
+    width: 10rem;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+}
+
+.right ul{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;   
+    list-style-type: none;
+}
+
+.right ul li {
+    cursor: pointer;
+    text-decoration: none;
+}
