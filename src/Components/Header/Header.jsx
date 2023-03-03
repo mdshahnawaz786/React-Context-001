@@ -12,7 +12,7 @@ const Header = ({ first, setfirst }) => {
       className="header"
     >
       <div className="left">
-        <img src="https://www.geekster.in/images/logo.svg" alt="" />
+        <h1>Geekster</h1>
       </div>
       <div className="right">
         <ul className="ul">
@@ -27,14 +27,15 @@ const Header = ({ first, setfirst }) => {
           </Link>
           
         </ul>
+        <div className="button-div"> 
         <button
           onClick={() => {
             setfirst(!first);
           }}
         >
-         
           {first ? "Toggle to Light Theme" : "Toggle to Dark Theme"}
         </button>
+        </div>
       </div>
     </div>
   );
